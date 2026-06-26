@@ -127,6 +127,7 @@ information on what to include when reporting a bug.
  - Updated minimum CMake version to 3.16 (#2541)
  - Removed support for building with original MinGW (#2540)
  - [Win32] Removed support for Windows XP and Vista (#2505)
+ - [Win32] Bugfix: Media keys were reported with a scancode of 256 (#1768,#2417,#2625)
  - [Cocoa] Added `QuartzCore` framework as link-time dependency
  - [Cocoa] Removed support for OS X 10.10 Yosemite and earlier (#2506)
  - [Cocoa] Bugfix: Cmd+Period, Ctrl+Tab and Ctrl+Esc key events were not emitted
